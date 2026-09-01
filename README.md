@@ -1,22 +1,25 @@
-# Guia Rápido: CDN & Recursos (Bootstrap e Tailwind CSS)
+# CDN — Bootstrap e Tailwind CSS
 
-Resumo de links e referências para integração rápida de frameworks CSS via CDN e bibliotecas de componentes.
+Resumo de links CDN, bibliotecas e referências para integração rápida de frameworks CSS.
 
 ---
 
-## 1. Bootstrap 5
+## Bootstrap
 
-### Links CDN (Versão 5.3)
+### Links CDN (v5.3)
 
-| Recurso | Tipo | Tag / URL |
+| Recurso | Tipo | URL |
 | :--- | :--- | :--- |
-| **CSS Principal** | Folha de Estilo | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css` |
-| **JS Bundle (com Popper)** | Script | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js` |
+| **CSS** | Folha de Estilo | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css` |
+| **JS** | Script (Bundle com Popper) | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js` |
 
-#### Como incluir no HTML:
+### Componentes Oficiais
+* **Documentação:** [Bootstrap Components](https://getbootstrap.com/docs/5.3/components/accordion/)
+
+---
+
+## Tailwind CSS
+
+### Script Play CDN (Testes rápidos)
 ```html
-<!-- Cole no <head> -->
-<link rel="stylesheet" href="[https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css)">
-
-<!-- Cole antes de fechar o </body> -->
-<script src="[https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js)"></script>
+<script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
