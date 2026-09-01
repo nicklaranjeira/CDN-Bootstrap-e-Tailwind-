@@ -20,6 +20,6 @@ Resumo de links CDN, bibliotecas e referências para integração rápida de fra
 
 ## Tailwind CSS
 
-### Script Play CDN (Testes rápidos)
+### Componentes
 ```html
-<script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
+https://tailwindcss.com/plus/ui-blocks
